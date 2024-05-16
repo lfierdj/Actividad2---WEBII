@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan si no caben en una sola fila */
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan si no caben en una sola fila */
+    justify-content: space-around; /* Distribuye uniformemente las tarjetas horizontalmente */
+    margin: 20px; /* Espacio exterior alrededor del contenedor de tarjetas */
+  }
+  
+  .card {
+    width: 400px;
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+    /* Estilos adicionales para la tarjeta */
+  }
+  
+  /* Estilos para los botones (editar y eliminar) */
+  .btn {
+    margin-right: 10px; /* Espacio entre los botones */
+  } 

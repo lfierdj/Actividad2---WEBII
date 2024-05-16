@@ -1,0 +1,29 @@
+.custom-navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.custom-navbar .navbar-brand {
+    font-size: 1.5rem;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.custom-navbar .navbar-nav .nav-item:hover .nav-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.custom-navbar .navbar-nav .nav-item.active .nav-link {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.custom-navbar .btn-danger {
+    margin-left: 1rem;
+}
+
+.custom-navbar .form-control {
+    width: 200px;
+    margin-right: 1rem;
+}

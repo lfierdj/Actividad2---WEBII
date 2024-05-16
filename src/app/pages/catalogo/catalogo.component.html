@@ -1,0 +1,22 @@
+
+  <div class="card-container">
+    @for (item of libros; track item) {
+
+        <div class="card" style="width:400px">
+        
+            <div class="card-body">
+              <h4 class="card-title">nombre: </h4>
+                <p>{{item.titulo}}</p>
+              <h4 class="card-title">autor: </h4>
+                <p>{{item.autor}}</p>
+              <h4 class="card-title">genero: </h4>
+                <p>{{item.genero}}</p>
+              <h4 class="card-title">Año de publicacion: </h4>
+              <p>{{item.anio_publicacion}}</p>
+              <h4 class="card-title">ISBN: </h4>
+              <p>{{item.isbn}}</p>
+            </div>
+          </div>
+      }
+  </div>
+ 

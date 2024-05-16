@@ -1,0 +1,8 @@
+.styled-image {
+    width: 100%; /* Ajusta el ancho de la imagen */
+    max-width: 600px; /* Establece el ancho máximo */
+    display: block; /* Permite centrar la imagen horizontalmente */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 8px; /* Añade bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+}

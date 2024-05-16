@@ -1,0 +1,33 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ajusta el espacio entre las tarjetas */
+}
+
+.card {
+    width: calc(50% - 10px); /* Esto dividirá el contenedor en dos filas */
+    margin-bottom: 20px; /* Espacio entre las filas */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #921616; /* Color de fondo de la tarjeta */
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el cursor */
+}
+
+.card:hover {
+    background-color: #120707; /* Color de fondo al pasar el cursor */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ece9e9; /* Color del título */
+}
+
+.card-body p {
+    margin-bottom: 10px;
+    color: #d6d2d2; /* Color del texto */
+}

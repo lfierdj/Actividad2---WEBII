@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "bibliotecario@yop.com",
+      "password": "$2a$10$zQJpj/cu.RDmlHTy9.N52u83XYEvR80xBsCadODX4WmXIGVaX0ef2"
+    },
+    {
+      "email": "administrador@yop.com",
+      "password": "12345",
+      "role": "admin",
+      "id": 2
+    }
+  ],
+  "libros": [
+    {
+      "id": "1",
+      "titulo": "El nombre del viento",
+      "autor": "Patrick Rothfuss",
+      "genero": "Fantasía",
+      "anio_publicacion": 2007,
+      "idioma": "Español",
+      "isbn": "978-84-15846-00-7"
+    },
+    {
+      "id": "2",
+      "titulo": "The Great Gatsby",
+      "autor": "F. Scott Fitzgerald",
+      "genero": "Novela",
+      "anio_publicacion": 1925,
+      "idioma": "Inglés",
+      "isbn": "978-0-7432-7356-5"
+    },
+    {
+      "id": "3",
+      "titulo": "Don Quijote de la Mancha",
+      "autor": "Miguel de Cervantes",
+      "genero": "Novela picaresca",
+      "anio_publicacion": 1605,
+      "idioma": "Español",
+      "isbn": "978-84-376-0494-7"
+    },
+    {
+      "id": "4",
+      "titulo": "Harry Potter and the Philosopher's Stone",
+      "autor": "J.K. Rowling",
+      "genero": "Fantasía",
+      "anio_publicacion": 1997,
+      "idioma": "Inglés",
+      "isbn": "978-0-7475-3269-6"
+    },
+    {
+      "id": "5",
+      "titulo": "Pride and Prejudice",
+      "autor": "Jane Austen",
+      "genero": "Romance",
+      "anio_publicacion": 1813,
+      "idioma": "Inglés",
+      "isbn": "978-0-14-119907-8"
+    }
+  ]
+}

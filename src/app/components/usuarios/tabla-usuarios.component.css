@@ -1,0 +1,44 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.custom-table td {
+    border: 1px solid #ccc;
+}
+
+.btn-editar, .btn-eliminar {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-editar {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-editar:hover {
+    background-color: #0056b3;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+}
